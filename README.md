@@ -1,4 +1,4 @@
-Note: This repo is in maintenance mode. Bug fixes will be happily merged if they are submitted in simple or well-explained PRs (thank you to all the contributors over the years!), but new features will usually not be merged (because all features eventually break and increase the maintenance cost). I don't have enough time to better support this project and believe the approach is ok for one-off scripts or fun projects but fundamentally too unstable for any serious application. Any change by Facebook can break the api overnight and that's assuming the api can remain compliant enough not to get blocked. Unfortunately we will need to wait and hope that they decide to build a powerful enough bot system to support all these usecases.
+Note: This repo is in maintenance mode. Bug fixes will be happily merged if they are submitted in simple or well-explained PRs (thank you to all the contributors over the years!), but new features will usually not be merged (because all features eventually break and increase the maintenance cost). I don't have enough time to better support this project and believe the approach is ok for one-off scripts or fun projects but fundamentally too unstable for any serious application. Any change by Facebook can break the api overnight and that's assuming the api can remain compliant enough not to get blocked. Unfortunately we will need to wait and hope that they decide to build a powerful enough bot system to support all these use cases.
 
 # Unofficial Facebook Chat API
 <a href="https://www.npmjs.com/package/facebook-chat-api"><img alt="npm version" src="https://img.shields.io/npm/v/facebook-chat-api.svg?style=flat-square"></a>
@@ -140,7 +140,7 @@ login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
 ------------------------------------
 ### Saving session.
 
-To avoid logging in every time you should save AppState (cookies etc.) to a file, then you can use it without having password in your scripts.
+To avoid logging in every time you should save AppState (cookies etc.) to a file, then you can use it without having a password in your scripts.
 
 __Example__
 
